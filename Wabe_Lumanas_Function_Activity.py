@@ -1,6 +1,6 @@
 # function of sum
 
-def sum_or_triple_sum(a, b, c):
+def sum_or_triple(a, b, c):
     if a == b == c:
         result = (a * b * c)
     else:
@@ -16,5 +16,5 @@ num3 = float(input("Enter the third number:"))
 
 # calculate
 
-result = sum_or_triple_sum(num1, num2, num3)
+result = sum_or_triple(num1, num2, num3)
 print(f"The result is: {result}")
